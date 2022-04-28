@@ -3,9 +3,11 @@ package com.crud.crudbook.service;
 import com.crud.crudbook.entity.Serie;
 import com.crud.crudbook.repository.SerieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class SerieService implements SerieServiceInterface{
 
     @Autowired
